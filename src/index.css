@@ -26,8 +26,8 @@
 
   --shadow-3xl: "0 10px 40px rgba(0, 0, 0, 0.1)";
 
-  --bg-hero: "url('assets/images/collection-background.svg')";
-  --bg-card: "url('assets/images/thumbnail-background.svg')";
+  --background-image-hero: url("assets/images/collection-background.svg");
+  --background-image-card: url("assets/images/thumbnail-background.svg");
 
   --screen-wide: "1440px";
 }

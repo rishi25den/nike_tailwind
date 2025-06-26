@@ -3,7 +3,7 @@ import { hamburger } from "../assets/icons";
 import { navLinks } from "../constants";
 const Nav = () => {
   return (
-    <header className="padding-x py-8 absolute z-10">
+    <header className="padding-x py-8 absolute z-10 w-full">
       <nav className="flex justify-between items-center max-container">
         <a href="/">
           <img
@@ -11,7 +11,7 @@ const Nav = () => {
             alt="Logo Here"
             width={129}
             height={29}
-            className="mr-20 w-[129px] h-[29px]"
+            className="m-0 w-[129px] h-[29px]"
           />
         </a>
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
@@ -26,8 +26,8 @@ const Nav = () => {
             </li>
           ))}
         </ul>
-        <div>
-          <img src={hamburger} alt="Hamburger" width={25} height={25} />
+        <div className="max-lg:block hidden">
+          <img src={hamburger} alt="hamburger icon" width={25} height={25} />
         </div>
       </nav>
     </header>
